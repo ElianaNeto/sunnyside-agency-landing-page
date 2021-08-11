@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Barlow;
+}
+
+header {
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  background-color: hsl(197, 96%, 58%);
+  width: 100%;
+  height: 87px;
+  float: left;
+  z-index: 9999;
+}
+
+.home {
+  float: left;
+  margin-left: 39px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.menu-list {
+  float: right;
+  margin-right: 30px;
+  display: flex !important;
+}
+
+.menu-item {
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+}
+
+.menu-item a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu-item:hover {
+  background-color: rgb(103, 207, 250);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: Fraunces;
+}
+
+.active {
+  background-color: hsl(0, 0%, 100%);
+}
