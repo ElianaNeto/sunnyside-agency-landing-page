@@ -6,13 +6,32 @@ body {
   font-family: Barlow;
 }
 
-header {
-  height: 400px;
+.header {
+  height: 650px;
   background-repeat: no-repeat;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: 1280px 650px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-title {
+  font-family: Fraunces;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 150px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.header img {
+  margin-top: 60px;
 }
 
 .menu {
-  background-color: hsl(197, 96%, 58%);
+  /* background-color: hsl(197, 96%, 58%);*/
   width: 100%;
   height: 87px;
   float: left;
@@ -58,4 +77,17 @@ header {
 
 .active {
   background-color: hsl(0, 0%, 100%);
+}
+
+.container-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.graphic {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+
+.photo {
+  background-image: url(../images/desktop/image-photography.jpg);
 }
