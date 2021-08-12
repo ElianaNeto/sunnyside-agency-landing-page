@@ -117,23 +117,57 @@ body {
   color: hsl(213, 9%, 39%);
 }
 
-.container-item-element-left a {
-  font-family: Fraunces;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: hsl(0, 0%, 0%);
-  font-weight: bold;
-  box-shadow: 0px 3px 2px hsl(51, 100%, 49%);
-}
-
+.container-item-element-left a,
 .container-item-element-right a {
   font-family: Fraunces;
   text-transform: uppercase;
   text-decoration: none;
-  color: hsl(0, 0%, 0%);
+  color: hsl(212, 27%, 19%);
   font-weight: bold;
-  box-shadow: 0px 3px 2px hsl(7, 99%, 70%);
+  position: relative;
 }
+.container-item-element-left a:hover:before {
+  background-color: hsl(47, 100%, 49%);
+}
+
+.container-item-element-right a:hover:before {
+  background-color: rgb(255, 21, 0);
+}
+
+.container-item-element-left a::before {
+  content: "";
+  position: absolute;
+  width: 115%;
+  height: 0.625rem;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: hsl(50, 93%, 71%);
+  border-radius: 30px;
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container-item-element-right a::before {
+  content: "";
+  position: absolute;
+  width: 115%;
+  height: 0.625rem;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: hsl(7, 99%, 70%);
+  border-radius: 30px;
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
 .transform-text {
   padding-top: 172px;
   padding-left: 124px;
@@ -147,17 +181,28 @@ body {
 .graphic {
   background-image: url(../images/desktop/image-graphic-design.jpg);
   text-align: center;
-  justify-content: center;
+  padding-top: 380px;
 }
-.graphic p {
+.graphic p,
+.graphic h3 {
   color: hsl(167, 40%, 24%);
+}
+
+.graphic h3,
+.photo h3 {
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 24px;
 }
 
 .photo {
   background-image: url(../images/desktop/image-photography.jpg);
   text-align: center;
+  padding-top: 405px;
 }
-.photo p {
+
+.photo p,
+.photo h3 {
   color: hsl(198, 62%, 26%);
 }
 
