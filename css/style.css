@@ -81,13 +81,127 @@ body {
 
 .container-item {
   width: 100%;
+  height: 600px;
   overflow: hidden;
+}
+
+.container-item img {
+  width: 632.5px;
+  height: 600px;
+}
+
+.container-item-element-right {
+  width: 632.5px;
+  margin-left: 630px;
+  height: 600px;
+}
+
+.container-item-element-right h3 {
+  margin-top: 0px;
+}
+.container-item-element-left {
+  width: 630px;
+  float: left;
+  height: 600px;
+}
+
+.container-item-element-left h2,
+.container-item-element-right h2 {
+  font-family: Fraunces;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container-item-element-left p,
+.container-item-element-right p {
+  color: hsl(213, 9%, 39%);
+}
+
+.container-item-element-left a {
+  font-family: Fraunces;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  box-shadow: 0px 3px 2px hsl(51, 100%, 49%);
+}
+
+.container-item-element-right a {
+  font-family: Fraunces;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  box-shadow: 0px 3px 2px hsl(7, 99%, 70%);
+}
+.transform-text {
+  padding-top: 172px;
+  padding-left: 124px;
+}
+
+.stand-text {
+  padding-top: 172px;
+  padding-left: 124px;
 }
 
 .graphic {
   background-image: url(../images/desktop/image-graphic-design.jpg);
+  text-align: center;
+  justify-content: center;
+}
+.graphic p {
+  color: hsl(167, 40%, 24%);
 }
 
 .photo {
   background-image: url(../images/desktop/image-photography.jpg);
+  text-align: center;
+}
+.photo p {
+  color: hsl(198, 62%, 26%);
+}
+
+.body-galery {
+  display: flex;
+  width: 100%;
+}
+
+.body-galery img {
+  width: 316px;
+  height: 450px;
+}
+.logo {
+  padding-top: 70px;
+}
+
+.social {
+  padding-top: 40px;
+}
+.social a {
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 1000px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
+}
+.footer-container {
+  height: 350px;
+  background-color: hsl(170, 48%, 67%);
+  text-align: center;
+}
+.footer-container ul {
+  display: flex !important;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-menu a {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 1000px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
 }
