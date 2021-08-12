@@ -206,6 +206,20 @@ body {
   color: hsl(198, 62%, 26%);
 }
 
+.client-body {
+  width: 100%;
+  height: 575px;
+  text-align: center;
+}
+
+.client-body ul {
+  display: flex !important;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+  margin-top: 100px ;
+}
+
 .body-galery {
   display: flex;
   width: 100%;
