@@ -57,6 +57,7 @@ body {
   float: left;
   text-align: center;
   font-size: 15px;
+  color: hsl(0, 0%, 100%);
 }
 
 .menu-item a {
@@ -65,7 +66,7 @@ body {
   border-radius: 1000px;
   white-space: nowrap;
   text-decoration: none;
-  color: hsl(0, 0%, 100%);
+  color: inherit;
 }
 
 .menu-item:hover {
@@ -77,7 +78,11 @@ body {
 
 .active {
   background-color: hsl(0, 0%, 100%);
+  color: black;
+  text-transform: uppercase;
+  font-family: Fraunces;
 }
+
 
 .container-item {
   width: 100%;
@@ -171,6 +176,11 @@ body {
 .transform-text {
   padding-top: 172px;
   padding-left: 124px;
+  line-height: 1.5em;
+}
+.transform-text p,
+.stand-text p {
+  line-height: 1.5em;
 }
 
 .stand-text {
@@ -182,6 +192,7 @@ body {
   background-image: url(../images/desktop/image-graphic-design.jpg);
   text-align: center;
   padding-top: 380px;
+  line-height: 1.5em;
 }
 .graphic p,
 .graphic h3 {
@@ -199,6 +210,7 @@ body {
   background-image: url(../images/desktop/image-photography.jpg);
   text-align: center;
   padding-top: 405px;
+  line-height: 1.5em;
 }
 
 .photo p,
@@ -210,6 +222,7 @@ body {
   width: 100%;
   height: 575px;
   text-align: center;
+  line-height: 1.5em;
 }
 
 .client-body ul {
@@ -217,7 +230,11 @@ body {
   text-align: center;
   list-style: none;
   justify-content: center;
-  margin-top: 100px ;
+  margin-top: 100px;
+}
+
+.client-body ul li {
+  margin-right: 40px;
 }
 
 .body-galery {
