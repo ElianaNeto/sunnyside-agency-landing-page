@@ -70,19 +70,18 @@ body {
 }
 
 .menu-item:hover {
-  background-color: rgb(103, 207, 250);
+  background-color: hsl(198, 94%, 69%);
   border-radius: 20px;
   text-transform: uppercase;
   font-family: Fraunces;
 }
 
-.active {
+a.active {
   background-color: hsl(0, 0%, 100%);
-  color: black;
   text-transform: uppercase;
   font-family: Fraunces;
+  color: #121212;
 }
-
 
 .container-item {
   width: 100%;
