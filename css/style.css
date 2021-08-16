@@ -9,9 +9,11 @@ body {
 
 .header {
   height: 650px;
+  /*width: 100%;*/
   background-repeat: no-repeat;
   background-image: url(../images/desktop/image-header.jpg);
-  background-size: 1280px 650px;
+  /*background-size: 1280px 650px;*/
+  background-size: cover;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -91,21 +93,24 @@ a.active {
 }
 
 .container-item img {
-  width: 632.5px;
+  /* width: 632.5px;*/
+  width: 100%;
   height: 600px;
 }
 
 .container-item-element-right {
-  width: 632.5px;
-  margin-left: 630px;
+  /* width: 632.5px;*/
+  width: 50%;
   height: 600px;
+  float: right;
 }
 
 .container-item-element-right h3 {
   margin-top: 0px;
 }
 .container-item-element-left {
-  width: 630px;
+  /*width: 630px;*/
+  width: 50%;
   float: left;
   height: 600px;
 }
@@ -176,8 +181,8 @@ a.active {
 .transform-text {
   padding-top: 172px;
   padding-left: 124px;
-  line-height: 1.5em;
 }
+
 .transform-text p,
 .stand-text p {
   line-height: 1.5em;
@@ -190,13 +195,19 @@ a.active {
 
 .graphic {
   background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   text-align: center;
-  padding-top: 380px;
+  padding-top: 300px;
   line-height: 1.5em;
+  width: 50%;
 }
+
 .graphic p,
 .graphic h3 {
   color: hsl(167, 40%, 24%);
+  width: 340px;
+  padding-left: 25%;
 }
 
 .graphic h3,
@@ -208,21 +219,26 @@ a.active {
 
 .photo {
   background-image: url(../images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   text-align: center;
-  padding-top: 405px;
+  padding-top: 310px;
   line-height: 1.5em;
+  width: 50%;
 }
 
 .photo p,
 .photo h3 {
   color: hsl(198, 62%, 26%);
+  width: 340px;
+  padding-left: 25%;
 }
 
 .client-body {
   width: 100%;
-  height: 575px;
   text-align: center;
   line-height: 1.5em;
+  margin-bottom: 140px;
 }
 
 .client-body ul {
@@ -235,6 +251,43 @@ a.active {
 
 .client-body ul li {
   margin-right: 40px;
+  margin-left: 40px;
+  width: 32%;
+}
+
+.client-body h3 {
+  margin-top: 90px;
+  font-family: Fraunces;
+  color: rgb(168, 170, 171);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.client-body img {
+  border-radius: 50%;
+  height: 70px;
+}
+
+.clint-comment {
+  width: 310px;
+  height: 72px;
+  line-height: 1.5em;
+  margin-bottom: 80px;
+  padding-top: 10px;
+}
+
+.client-descr :first-child {
+  font-family: Fraunces;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 0px;
+}
+
+.client-descr :last-child {
+  font-family: Barlow;
+  font-size: 14px;
+  margin-top: 0px;
+  color: rgb(186, 185, 183);
 }
 
 .body-galery {
@@ -243,8 +296,7 @@ a.active {
 }
 
 .body-galery img {
-  width: 316px;
-  height: 450px;
+  width: 25%;
 }
 .logo {
   padding-top: 70px;
