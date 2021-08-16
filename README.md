@@ -14,7 +14,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
@@ -41,7 +40,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow 
+- Mobile-first workflow
 - [Javascrip](https://www.javascript.com/)
 
 ### What I learned
@@ -49,15 +48,13 @@ Users should be able to:
 I learned to apply simple active state on menu 😅 🙃
 
 ```js
-$(document).ready(function(){
-    $('.menu-list ul li a').click(function() {
-        $('.menu-list li a').removeClass("active");
-        $(this).addClass("active");  
-    });
+$(document).ready(function () {
+  $(".menu-list ul li a").click(function () {
+    $(".menu-list li a").removeClass("active");
+    $(this).addClass("active");
+  });
 });
 ```
-
-
 
 ## Author
 
