@@ -184,13 +184,22 @@ a.active {
   padding-left: 124px;
 }
 
+.transform-text h2 {
+  width: 330px;
+}
+
+.stand-text h2 {
+  width: 350px;
+}
+
 .transform-text p,
 .stand-text p {
   line-height: 1.5em;
+  width: 400px;
 }
 
 .stand-text {
-  padding-top: 172px;
+  padding-top: 160px;
   padding-left: 124px;
 }
 
