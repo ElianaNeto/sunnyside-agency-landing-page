@@ -84,6 +84,7 @@ a.active {
   text-transform: uppercase;
   font-family: Fraunces;
   color: #121212;
+  transition: 0.5s;
 }
 
 .container-item {
