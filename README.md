@@ -6,7 +6,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,14 +22,11 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](screenshot/web.png)
 
 ### Links
 
-- Solution URL: [My solution ](https://www.frontendmentor.io/solutions/order-summary-component-zIgUK-v7E)
-- Live Site URL: [Live site URL here](https://eliananeto.github.io/order-summary-component/)
+- Solution URL: [My solution ](https://www.frontendmentor.io/solutions/landing-page-AOp3DrOAP)
+- Live Site URL: [Live site URL here](https://eliananeto.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
